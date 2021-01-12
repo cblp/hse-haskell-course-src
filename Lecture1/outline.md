@@ -9,9 +9,9 @@
 -   cblp.su, [@cblp_su](https://t.me/cblp_su)
 
 # Литература
--   Learn You a Haskell for Great Good!
-    1.  learnyouahaskell.com — бесплатно на английском
-    2.  dmkpress.com/catalog/computer/programming/functional/978-5-97060-025-2 — купить в мягкой обложке на русском
+-   Learn You a Haskell for Great Good! Miran Lipovača // Изучай Haskell во имя добра! Миран Липовача
+    -   learnyouahaskell.com — бесплатно на английском
+-   Get Programming with Haskell. Will Kurt // Программируй на Haskell. Уилл Курт
 
 # Окружение для разработки
 
@@ -38,7 +38,7 @@
         1.  параметрический
         1.  ad hoc
     1.  алгебраические типы
-    1.  (сорта типов, линейные типы, зависимые типы...)
+    1.  (сорта типов, экзистенциальные, линейные типы...)
 1.  вывод типов
 1.  ленивый порядок вычисления
 1.  ~~функциональный~~
@@ -131,6 +131,9 @@ Hackage <-- component::dependencies
 DEMO проект на Scotty
 
 # stack
+
+`stack runhaskell foo.hs`
+: собрать в фоне и запустить программу из файла
 
 `stack build`
 : собрать весь проект
